@@ -1,0 +1,108 @@
+* {
+
+    box-sizing: border-box;
+}
+
+
+/* background image*/
+header {
+    background-color: #000000;
+    background-image: linear-gradient(rgba(41, 128, 219, 0.5),rgba(0,0,0,0.5)), url(img/Designer-Wallpaper-Background-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+    max-width: 100%;
+    min-width: 100%;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+
+
+
+
+/* Navigation bar/links*/
+a:active {
+    background-color: orange;
+
+}
+
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin: 20px 10px;
+
+}
+
+
+.main-nav li {
+    display: inline-block;
+    margin: 10px 5px;
+
+}
+
+
+.main-nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    letter-spacing: 2px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 1px #222
+}
+
+
+.main-nav li:hover {
+    border: solid white;
+    background-color: rgb(240, 224, 224);
+    transition: all 0s ease-in;
+}
+
+
+#navigation li a.current{
+   color: #ffffff;
+   background:#f1d74c;
+}
+
+
+/*Hero/h1*/
+.hero {
+    font-family: "roboto",monospace,sans-serif;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    float: left;
+    width: 100%;
+    heightt: 100%;
+    margin-top: 100px;
+    text-shadow: 2px 4px 1px #222
+
+}
+
+
+
+
+/*explore link*/
+.button:hover {
+    background-color: rgb(9, 133, 235);
+}
+
+
+.button {
+    border: 3px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(238, 131, 5);
+    font-size: 45px;
+    font-family: 'roboto',monospace,sans-serif;
+
+
+
+}

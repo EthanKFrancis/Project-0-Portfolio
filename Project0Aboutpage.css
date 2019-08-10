@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.profile-pic {
+    border-radius: 70%;
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+
+
+
+body {
+    background-color: white;
+}
+
+
+h1,
+p {
+    
+    font-family: "roboto" ,monospace, sans-serif;
+}
